@@ -1,0 +1,216 @@
+export const portfolioData = {
+  personal: {
+    name: "Muhammad Noman",
+    title: "AI & Data Science Student | Aspiring Data Scientist",
+    bio: "Passionate about leveraging artificial intelligence and data science to solve real-world problems. Experienced in Python, Machine Learning, and building data-driven applications.",
+    email: "stohyd7017@gmail.com",
+    phone: "+92 316 3974608",
+    whatsapp: "+92 331 6667017",
+    address: "Latifabad, Hyderabad, Pakistan",
+    profileImage: "/profile.jpg",
+    github: "github.com/yourusername",
+    linkedin: "linkedin.com/in/muhammad-noman-shaikh-aa5372343",
+    instagram: "@smarttechone7017",
+    facebook: "facebook.com/stohyd7017",
+  },
+  
+  stats: [
+    { value: "3+", label: "Projects" },
+    { value: "2", label: "Hackathons" },
+    { value: "1+", label: "Yrs Experience" },
+  ],
+  
+  about: {
+    highlights: [
+      { icon: "🤖", title: "AI/ML", description: "Building intelligent systems with modern ML frameworks" },
+      { icon: "📊", title: "Data Analysis", description: "Transforming raw data into actionable insights" },
+      { icon: "🏆", title: "Hackathons", description: "Competitive problem-solving under pressure" },
+      { icon: "💼", title: "Entrepreneur", description: "Turning ideas into viable business solutions" },
+    ],
+    personalDetails: [
+      { label: "Location", value: "Hyderabad, Pakistan" },
+      { label: "Education", value: "B.S. in Progress" },
+      { label: "Focus Areas", value: "AI, ML, Data Science" },
+      { label: "Availability", value: "Open to Opportunities" },
+    ],
+  },
+  
+  skills: {
+    coreLanguage: {
+      title: "CORE LANGUAGE",
+      skills: [
+        { name: "Python", icon: "🐍" },
+        { name: "OOP", icon: "" },
+        { name: "Clean Code", icon: "✨" },
+        { name: "Data Structures", icon: "" },
+      ],
+    },
+    dataScience: {
+      title: "DATA SCIENCE LIBRARIES",
+      skills: [
+        { name: "NumPy", icon: "" },
+        { name: "Pandas", icon: "🐼" },
+        { name: "Matplotlib", icon: "" },
+        { name: "Seaborn", icon: "" },
+        { name: "Plotly", icon: "📊" },
+        { name: "Jupyter", icon: "📓" },
+      ],
+    },
+    aiML: {
+      title: "AI / MACHINE LEARNING",
+      skills: [
+        { name: "Scikit-learn", icon: "" },
+        { name: "Machine Learning", icon: "🤖" },
+        { name: "NLP", icon: "" },
+        { name: "spaCy", icon: "🔤" },
+        { name: "NLTK", icon: "" },
+        { name: "Sentence-Transformers", icon: "" },
+        { name: "FAISS", icon: "🔍" },
+        { name: "RAG Architecture", icon: "🏗️" },
+        { name: "Groq / Llama3", icon: "⚡" },
+        { name: "Prompt Engineering", icon: "💡" },
+        { name: "Vector Databases", icon: "🗄️" },
+        { name: "Text Classification", icon: "🏷️" },
+        { name: "Named Entity Recognition", icon: "" },
+        { name: "Streamlit", icon: "🎨" },
+        { name: "Data Analysis", icon: "📉" },
+      ],
+    },
+    backend: {
+      title: "BACKEND DEVELOPMENT",
+      skills: [
+        { name: "FastAPI", icon: "🚀" },
+        { name: "REST APIs", icon: "🔌" },
+        { name: "JWT Auth", icon: "🔐" },
+        { name: "Jinja2", icon: "📄" },
+        { name: "Streamlit", icon: "🌐" },
+        { name: "Docker", icon: "🐳" },
+        { name: "Node.js", icon: "💚" },
+      ],
+    },
+    tools: {
+      title: "TOOLS & PLATFORMS",
+      skills: [
+        { name: "Git & GitHub", icon: "" },
+        { name: "Hugging Face", icon: "🤗" },
+        { name: "VS Code", icon: "💻" },
+        { name: "Postman", icon: "📮" },
+        { name: "Linux", icon: "🐧" },
+        { name: "PowerShell", icon: "" },
+        { name: "Networking Basics", icon: "🌐" },
+        { name: "CCTV Systems", icon: "📹" },
+        { name: "AutoCAD", icon: "" },
+        { name: "Canva", icon: "🎨" },
+      ],
+    },
+  },
+  
+  projects: [
+    {
+      id: 1,
+      emoji: "🔐",
+      title: "AI Cybersecurity Assistant",
+      description: "An intelligent assistant that helps identify potential security threats using NLP and LLM integration.",
+      tech: ["Python", "Streamlit", "LLM API", "NLP"],
+      github: "https://github.com/yourusername",
+    },
+    {
+      id: 2,
+      emoji: "💼",
+      title: "AI Job Recommendation System",
+      description: "Machine learning-powered system that matches job seekers with relevant opportunities.",
+      tech: ["Python", "Scikit-Learn", "Pandas", "Streamlit"],
+      github: "https://github.com/yourusername",
+    },
+    {
+      id: 3,
+      emoji: "🚢",
+      title: "Titanic EDA Project",
+      description: "Comprehensive exploratory data analysis with interactive visualizations.",
+      tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      github: "https://github.com/yourusername",
+    },
+  ],
+  
+  certifications: [
+    {
+      id: 1,
+      title: "Cisco Introduction to Modern AI",
+      issuer: "Cisco Networking Academy",
+      date: "Mar 2026",
+      icon: "🎓",
+    },
+    {
+      id: 2,
+      title: "Python Essentials 1",
+      issuer: "Cisco Networking Academy",
+      date: "2025",
+      icon: "🐍",
+    },
+    {
+      id: 3,
+      title: "Coding Night 2026 Hackathon",
+      issuer: "SMIT",
+      date: "2026",
+      duration: "8hrs",
+      icon: "🏅",
+    },
+    {
+      id: 4,
+      title: "Coding Night 2025 Hackathon",
+      issuer: "SMIT",
+      date: "2025",
+      duration: "12hrs",
+      icon: "🏆",
+    },
+  ],
+  
+  business: {
+    title: "CCTV Sales & Surveillance Solutions",
+    description: "Professional surveillance system installation and IT solutions.",
+    services: [
+      "CCTV Installation",
+      "DVR/NVR Setup",
+      "Remote Monitoring",
+      "Maintenance & Troubleshooting",
+      "IT Accessories Sales",
+    ],
+    skills: ["Technical Installation", "System Configuration", "Customer Support"],
+    cta: "Contact for Services",
+  },
+
+  contact: {
+    intro: "I'm actively looking for opportunities across the AI & ML space — whether that's a full-time role, an internship, freelance work, or a contract project.",
+    subtitle: "Location is flexible: I'm equally comfortable working remotely or relocating on-site.",
+    cta: "If you're building something interesting in AI, NLP, or backend systems — let's talk.",
+    availability: [
+      { type: "Remote", status: "Worldwide" },
+      { type: "On-site", status: "Open to relocation" },
+      { type: "Hybrid", status: "Flexible schedule" },
+      { type: "Internship", status: "Any duration" },
+      { type: "Freelance", status: "Project basis" },
+      { type: "Contract", status: "Short or long term" },
+      { type: "Part-time", status: "While studying" },
+    ],
+  },
+  
+  social: {
+    email: "mailto:stohyd7017@gmail.com",
+    whatsapp: "https://wa.me/923316667017",
+    linkedin: "https://www.linkedin.com/in/muhammad-noman-shaikh-aa5372343",
+    facebook: "https://www.facebook.com/stohyd7017",
+    instagram: "https://www.instagram.com/smarttechone7017",
+    github: "https://github.com/yourusername",
+    cv: "/Muhammad_Noman_CV.pdf",
+  },
+  
+  navLinks: [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Certifications", href: "#certifications" },
+    { name: "Business", href: "#business" },
+    { name: "Contact", href: "#contact" },
+  ],
+};
